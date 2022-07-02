@@ -37,7 +37,10 @@
   alt-tab
   hiddenbar
   iterm2
-  wechat'
+  wechat
+  spotify
+  spotmenu
+  '
 
 
   for app in $homebrew_cask_app
@@ -78,12 +81,21 @@
   wayou.vscode-todo-highlight
   yzhang.markdown-all-in-one
   zavrakv.vscode-hacker-typer-fixed
+  Huuums.vscode-fast-folder-structure
   '
 
   for extension in $vscode_extensions
   do
     code --install-extension $extension --force
   done
+  ```
+
+  - [ ] Folder Structure Extension
+
+  ```sh
+   cp -r ./configs ~/dev
+
+
   ```
 
 - [ ] oh-my-zsh
