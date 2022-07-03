@@ -25,7 +25,7 @@
 - [ ] cask app
 
   ```sh
-  homebrew_cask_app='fork
+  homebrew_cask_app='sourcetree
   drawio
   postman
   rar
@@ -82,6 +82,7 @@
   yzhang.markdown-all-in-one
   zavrakv.vscode-hacker-typer-fixed
   Huuums.vscode-fast-folder-structure
+  meganrogge.template-string-converter
   '
 
   for extension in $vscode_extensions
